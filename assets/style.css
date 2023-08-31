@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+}
+
+.right_sector {
+  width: 50%;
+}
+
+.right_sector > img {
+  width: 50px;
+}
