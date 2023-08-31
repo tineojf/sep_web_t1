@@ -18,60 +18,69 @@
 
     <form class="row g-3">
       <h2>Contáctenos</h2>
+
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" />
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail4"
+          placeholder="Enter a valid email address"
+        />
       </div>
+
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" />
-      </div>
-      <div class="col-12">
-        <label for="inputAddress" class="form-label">Address</label>
+        <label for="inputName" class="form-label">Name</label>
         <input
           type="text"
           class="form-control"
-          id="inputAddress"
-          placeholder="1234 Main St"
+          id="inputName"
+          placeholder="Enter your Name"
         />
       </div>
+
       <div class="col-12">
-        <label for="inputAddress2" class="form-label">Address 2</label>
+        <label for="inputPhone" class="form-label">Phone</label>
         <input
           type="text"
           class="form-control"
-          id="inputAddress2"
-          placeholder="Apartment, studio, or floor"
+          id="inputPhone"
+          placeholder="Enter your phone number (e.g. 123-456-7890)"
         />
       </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">City</label>
-        <input type="text" class="form-control" id="inputCity" />
+
+      <div class="col-12">
+        <label for="taMessage" class="form-label">Message</label>
+        <textarea
+          class="form-control"
+          name="taMessage"
+          id="taMessage"
+          cols="35"
+          rows="5"
+        ></textarea>
       </div>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
-        <select id="inputState" class="form-select">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="col-md-2">
-        <label for="inputZip" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="inputZip" />
-      </div>
+
       <div class="col-12">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck" />
-          <label class="form-check-label" for="gridCheck"> Check me out </label>
+          <input class="form-check-input" type="checkbox" id="cb-AgreeTerms" />
+          <label class="form-check-label" for="cb-AgreeTerms">
+            I accept the
+            <a
+              href="https://www.microsoft.com/en/servicesagreement/"
+              target="_blank"
+              >Terms of Service</a
+            ></label
+          >
         </div>
       </div>
+
       <div class="col-12">
         <button type="submit" class="btn btn-primary">Sign in</button>
       </div>
     </form>
 
     <div class="right_sector">
-      <img src="assets/images/icon.png" alt="logo-phone">
+      <img src="assets/images/icon.png" alt="logo-phone" />
       <h2>1 (234) 567-891</h2>
       <h2>1 (234) 987-654</h2>
     </div>
